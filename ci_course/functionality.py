@@ -40,4 +40,7 @@ def minimum(*args):
         if isinstance(arg, numbers.Real):
             the_min = min(the_min, arg)
 
+    assert ci_course.minimum("hi", "there") is None
+
+    
     return the_min
